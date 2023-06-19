@@ -1,0 +1,89 @@
+
+  body {
+    background-image: url(CSS\ background\ Image\ \ \ Using\ an\ image\ \ \ Stack\ Overflow.png);
+    font-family: Arial, sans-serif;
+    background-color:black;
+  }
+  
+
+  main {
+    width: 400px;
+    margin: 90px auto ;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    /* align-items: center; */
+
+  }
+  
+  
+  #display {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 40px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: right;
+  }
+  
+  .cal {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+
+  .number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+  }
+
+
+  .Clear {
+    background-color: red;
+    color:  white;
+  }
+    
+  .number:hover {
+    background-color: rgb(209, 209, 209);
+  }
+  
+ 
+  .operator {
+    background-color: rgb(226, 226, 226);
+    color:rgba(9, 9, 9, 0.446) ;
+  }
+  
+  .operator:hover {
+    background-color: rgb(245,124,0);
+  }
+  
+  .Del {
+    background-color: rgb(6, 121, 22);
+    color: white
+  }
+  
+  .Del:hover {
+    background-color: rgb(71, 71, 71);
+  }
+  
+  .long {
+    grid-column: span 2;
+  }
+  
+  .point {
+    background-color: rgb(226, 226, 226);
+    color:rgba(9, 9, 9, 0.446) ;
+  }
+  
+  .point:hover {
+    background-color: rgb(71, 71, 71) ;
+  }
+  
+ 
